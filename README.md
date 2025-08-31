@@ -23,6 +23,21 @@ Useful for ASR, speech analytics, NLP, and training voicebots.
 
 ---
 
+## Demo (OGG sample)
+
+> The full dataset is stored in MP3, but below is an OGG file for quick online playback.
+
+<audio controls>
+  <source src="sample_ru.ogg?raw=1" type="audio/ogg">
+  Your browser does not support the <code>audio</code> element. Please download the file below.
+</audio>
+
+**Download directly:** [sample_ru.ogg](sample_ru.ogg?raw=1)
+
+▶️ **[Listen online via GitHub Pages](https://maratdv.github.io/russian-call-center-speech-ru/)**  
+
+---
+
 ## Пример (демо в OGG)
 
 > Основной датасет хранится в MP3, но ниже приведён OGG-файл для онлайн-прослушивания.
@@ -34,14 +49,7 @@ Useful for ASR, speech analytics, NLP, and training voicebots.
 
 **Скачать напрямую:** [sample_ru.ogg](sample_ru.ogg?raw=1)
 
----
-
-## GitHub Pages (онлайн-плеер)
-
-1. Включите **Settings → Pages → Source: `main` / `/root` → Save**.  
-2. В репозитории уже есть файлы `index.html`, `styles.css`, `player.js`, `.nojekyll`.  
-3. Сложите OGG-файлы в папку `samples/` и перечислите их в `samples/manifest.json`.  
-4. После сохранения откройте GitHub Pages — увидите веб-плеер и плейлист.
+▶️ **[Онлайн-прослушивание через GitHub Pages](https://maratdv.github.io/russian-call-center-speech-ru/)**  
 
 ---
 
