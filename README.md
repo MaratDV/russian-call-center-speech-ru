@@ -23,33 +23,10 @@ Useful for ASR, speech analytics, NLP, and training voicebots.
 
 ---
 
-## Demo (OGG sample)
+## Demo
 
-> The full dataset is stored in MP3, but below is an OGG file for quick online playback.
-
-<audio controls>
-  <source src="sample_ru.ogg?raw=1" type="audio/ogg" />
-  Your browser does not support the <code>audio</code> element. Please download the file below.
-</audio>
-
-**Download directly:** [sample_ru.ogg](sample_ru.ogg?raw=1)
-
-▶️ **[Listen online via GitHub Pages](https://maratdv.github.io/russian-call-center-speech-ru/)**  
-
----
-
-## Пример (демо в OGG)
-
-> Основной датасет хранится в MP3, но ниже приведён OGG-файл для онлайн-прослушивания.
-
-<audio controls>
-  <source src="sample_ru.ogg?raw=1" type="audio/ogg" />
-  Ваш браузер не поддерживает элемент <code>audio</code>. Скачайте файл ниже.
-</audio>
-
-**Скачать напрямую:** [sample_ru.ogg](sample_ru.ogg?raw=1)
-
-▶️ **[Онлайн-прослушивание через GitHub Pages](https://maratdv.github.io/russian-call-center-speech-ru/)**  
+**Download demo file:** [sample_ru.ogg](sample_ru.ogg?raw=1)  
+▶️ **[Online playback via GitHub Pages](https://maratdv.github.io/russian-call-center-speech-ru/)**  
 
 ---
 
