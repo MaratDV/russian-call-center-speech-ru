@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RU Call Center — OGG Demo Player</title>
+  <meta name="description" content="Демо-плейлист customer–agent (RU). OGG Vorbis.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>RU Call Center — OGG Demo Player</h1>
+    <p class="lead">Складывайте ogg‑файлы в папку <code>samples/</code> и перечисляйте их в <code>samples/manifest.json</code>. Эта страница автоматически подхватит плейлист.</p>
+
+    <section class="player card">
+      <audio id="audio" controls preload="metadata"></audio>
+      <div id="nowPlaying" class="now-playing">Ничего не выбрано</div>
+    </section>
+
+    <section class="playlist card">
+      <h2>Плейлист</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <section class="hint card">
+      <p><b>Safari</b> может не воспроизводить OGG — используйте Chrome/Firefox/Edge или скачайте файл.</p>
+      <p>Если манифест не найден, будет показан одиночный трек <code>sample_ru.ogg</code>, если он лежит рядом с этой страницей.</p>
+    </section>
+
+    <footer class="footer">
+      <a href="README.md">README.md</a>
+    </footer>
+  </main>
+
+  <script src="player.js"></script>
+</body>
+</html>

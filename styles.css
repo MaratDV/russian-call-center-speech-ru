@@ -1,0 +1,19 @@
+/* Minimal, clean dark theme */
+:root{ --bg:#0b1020; --card:#121933; --line:#1e2a55; --text:#e9eef7; --sub:#a7b1d6; --link:#9dbeff; }
+*{ box-sizing:border-box }
+body{ margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif }
+a{ color:var(--link); text-decoration:none }
+a:hover{ text-decoration:underline }
+.wrap{ max-width:880px; margin:40px auto; padding:0 16px }
+h1{ margin:.2rem 0 1rem }
+.lead{ color:var(--sub) }
+.card{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin:14px 0; box-shadow:0 6px 22px rgba(0,0,0,.25) }
+audio{ width:100%; height:40px }
+.now-playing{ margin-top:8px; color:var(--sub) }
+.playlist ul{ list-style:none; padding:0; margin:0 }
+.playlist li{ border-top:1px solid var(--line); padding:10px 8px; display:flex; gap:10px; align-items:center }
+.playlist li:first-child{ border-top:none }
+.playlist button{ cursor:pointer; padding:6px 10px; border-radius:10px; border:1px solid var(--line); background:#0e1430; color:var(--text) }
+.playlist button:hover{ filter:brightness(1.1) }
+.badge{ font:12px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; padding:2px 6px; border:1px solid var(--line); border-radius:999px; color:var(--sub) }
+.footer{ opacity:.75; font-size:14px; margin:22px 0 }
