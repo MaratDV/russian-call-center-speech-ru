@@ -28,7 +28,7 @@ Useful for ASR, speech analytics, NLP, and training voicebots.
 > The full dataset is stored in MP3, but below is an OGG file for quick online playback.
 
 <audio controls>
-  <source src="sample_ru.ogg?raw=1" type="audio/ogg">
+  <source src="sample_ru.ogg?raw=1" type="audio/ogg" />
   Your browser does not support the <code>audio</code> element. Please download the file below.
 </audio>
 
@@ -43,7 +43,7 @@ Useful for ASR, speech analytics, NLP, and training voicebots.
 > Основной датасет хранится в MP3, но ниже приведён OGG-файл для онлайн-прослушивания.
 
 <audio controls>
-  <source src="sample_ru.ogg?raw=1" type="audio/ogg">
+  <source src="sample_ru.ogg?raw=1" type="audio/ogg" />
   Ваш браузер не поддерживает элемент <code>audio</code>. Скачайте файл ниже.
 </audio>
 
